@@ -1,0 +1,3 @@
+git add --patch file.txt
+git commit -m "task 1 related"
+git commit -am "rest of the content"

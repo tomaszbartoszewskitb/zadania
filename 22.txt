@@ -1,0 +1,14 @@
+git log -S shit
+git rebase -i HEAD~105
+git log -p -1
+git add list.txt
+git commit --amend
+git rebase --continue
+git log -p -1
+git add words.txt
+git commit --amend
+git rebase --continue
+git log -p -1
+git add words.txt
+git commit --amend
+git rebase --continue

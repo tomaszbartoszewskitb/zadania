@@ -1,0 +1,8 @@
+git log --oneline --decorate --graph --all -8
+git checkout pick-your-features
+git cherry-pick feature-a 
+git cherry-pick feature-b
+git cherry-pick feature-c
+vi program.txt
+git add program.txt
+git cherry-pick --continue
